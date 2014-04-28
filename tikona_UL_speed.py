@@ -13,6 +13,6 @@ while(i):
 	i+=1
 	print "logout",i
 	time.sleep(1)
-	data = {'type':2,'username':'1109309249','password':'INVERSE#index$LAB','rememberme':'on','act':'null'}
+	data = {'type':2,'username':'1109XXXXXX','password':'***************','rememberme':'on','act':'null'}
 	req = br.open('https://login.tikona.in/userportal/newlogin.do?phone=0',data=urllib.urlencode(data))
 	print "login"
